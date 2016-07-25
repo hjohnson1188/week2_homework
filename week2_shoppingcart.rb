@@ -11,16 +11,15 @@ class PenguinInventory
 	puts "Please select Penguin, number 0-4, that you would like to order."
 
 	
-end
-
-class ShoppingCart
-	def cart
+	def ShoppingCart
 		add_item = gets.chop
 		@cart = ShoppingCart.new
 		@cart << add_item
 		puts "your shopping cart currently has " + @cart + "items in it."
 	end
 end
+
+
 
 
 
